@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-//const fs = require('fs');
+const fs = require('fs');
 
 function cryptmess(username_contact, email_contact, message) {
   const publicKeyFile = `Pubkeys/${email_contact}_${username_contact}_public.pem`;
