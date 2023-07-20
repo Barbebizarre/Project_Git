@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,    // Pour les environnements de navigateur (DOM)
+    "es2021": true      // Pour ES2021
+  },
+  "extends": "eslint:recommended",  // Utilise les règles recommandées par ESLint
+  "parserOptions": {
+    "ecmaVersion": 12    // Version ECMAScript (par exemple, 6 pour ES6, 12 pour ES2021)
+  },
+  "rules": {
+    "indent": ["error", 2],   // Utilise une indentation de 2 espaces
+    "semi": ["error", "always"],   // Oblige les points-virgules à la fin des déclarations
+    "quotes": ["error", "single"],  // Utilise les guillemets simples pour les chaînes de caractères
+    "no-console": "off"    // Autorise les appels à console.log
+  }
+}
+
